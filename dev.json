@@ -1,0 +1,21 @@
+{
+  "offers": [
+    {
+      "id": "offer_welcome_01",
+      "title": "Benvenuto! +50% coin",
+      "description": "Solo oggi",
+      "productId": "com.burraco3d.coins.tiny",
+      "badge": "NUOVO",
+      "image": "https://www.digitalzeta.it/offers/hero_welcome.png",
+      "countdownSeconds": 86400,
+      "ctaLabel": "Acquista ora",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": ["MainMenu"],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      }
+    }
+  ]
+}
