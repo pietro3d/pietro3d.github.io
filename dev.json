@@ -6,7 +6,7 @@
       "description": "Solo oggi",
       "productId": "com.burraco3d.coins.tiny",
       "badge": "NUOVO",
-      "image": "https://github.com/pietro3d/pietro3d.github.io/PaccoRegalo.png",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
       "countdownSeconds": 86400,
       "ctaLabel": "Acquista ora",
       "entryPoint": "bottom_icons_shop",
