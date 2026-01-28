@@ -1,7 +1,7 @@
 {
        "code": "TEST2025",
-       "coins": 100,
+       "coins": 10000,
        "gems": 10,
-       "rankPoints": 50,
-       "expiryDate": "2025-12-31T23:59:59Z"
+       "rankPoints": 2,
+       "expiryDate": "2026-01-29T23:59:59Z"
 }
