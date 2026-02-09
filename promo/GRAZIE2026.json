@@ -1,7 +1,7 @@
 {
        "code": "GRAZIE2026",
-       "coins": 20000,
-       "gems": 100,
+       "coins": 1000,
+       "gems": 5,
        "rankPoints": 10,
        "expiryDate": "2026-02-20T23:59:59Z"
 }
