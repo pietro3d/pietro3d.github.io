@@ -1,10 +1,10 @@
  {
     "offers": [
       {
-        "id": "com.burraco3d.bundle.starter",
-        "title": "6000 coin + 120 gemme",
-        "description": "Offerta di benvenuto",
-        "productId": "com.burraco3d.bundle.starter",
+        "id": "com.burraco3d.coins.tiny",
+        "title": "Benvenuto: 1200 coin",
+        "description": "Offerta di benvenuto a 0,99 €",
+        "productId": "com.burraco3d.coins.tiny",
         "badge": "NUOVO",
         "image": "https://pietro3d.github.io/PaccoRegalo.png",
         "validTo": "2026-07-12T14:00:00Z",
