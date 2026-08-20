@@ -1,21 +1,55 @@
- {
-    "offers": [
-      {
-        "id": "com.burraco3d.coins.tiny",
-        "title": "Benvenuto: 1200 coin",
-        "description": "Offerta di benvenuto a 0,99 €",
-        "productId": "com.burraco3d.coins.tiny",
-        "badge": "NUOVO",
-        "image": "https://pietro3d.github.io/PaccoRegalo.png",
-        "validTo": "2026-07-12T14:00:00Z",
-        "ctaLabel": "Acquista ora",
-        "entryPoint": "bottom_icons_shop",
-        "visibleOn": ["MainMenu"],
-        "conditions": {
-          "firstPurchaseOnly": true,
-          "minPlayerLevel": 1,
-          "minCoins": 0
-        }
+{
+  "offers": [
+    {
+      "id": "offer_starter_202608",
+      "title": "Starter Pack: 6.000 monete + 120 gemme",
+      "description": "Solo per il primo acquisto, una volta sola",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "validTo": "2026-09-06T22:00:00Z",
+      "ctaLabel": "Approfitta ora",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": ["MainMenu"],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
       }
-    ]
-  }
+    },
+    {
+      "id": "offer_rescue_202608",
+      "title": "12.000 monete per tornare ai tavoli alti",
+      "description": "Il taglio con il miglior rapporto monete/prezzo",
+      "productId": "com.burraco3d.bundle.rescue",
+      "badge": "PIU' CONVENIENTE",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "validTo": "2026-09-06T22:00:00Z",
+      "ctaLabel": "Acquista ora",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": ["MainMenu"],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 2,
+        "minCoins": 0
+      }
+    },
+    {
+      "id": "offer_tiny_202608",
+      "title": "1.200 monete per continuare a giocare",
+      "description": "Ricarica veloce quando resti a corto",
+      "productId": "com.burraco3d.coins.tiny",
+      "badge": "RICARICA",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "validTo": "2026-09-06T22:00:00Z",
+      "ctaLabel": "Ricarica",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": ["MainMenu"],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      }
+    }
+  ]
+}
