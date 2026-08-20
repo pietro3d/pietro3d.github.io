@@ -1,13 +1,12 @@
 {
   "offers": [
     {
-      "id": "offer_starter_202608",
+      "id": "offer_starter_perm",
       "title": "6.000 monete + 120 gemme",
       "description": "Starter Pack: solo al primo acquisto",
       "productId": "com.burraco3d.bundle.starter",
       "badge": "BENVENUTO",
       "image": "https://pietro3d.github.io/PaccoRegalo.png",
-      "validTo": "2026-09-06T22:00:00Z",
       "ctaLabel": "Acquista",
       "entryPoint": "bottom_icons_shop",
       "visibleOn": [
@@ -17,35 +16,36 @@
         "firstPurchaseOnly": true,
         "minPlayerLevel": 1,
         "minCoins": 0
-      }
+      },
+      "validTo": "2027-12-31T22:00:00Z"
     },
     {
-      "id": "offer_rescue_202608",
-      "title": "12.000 monete",
-      "description": "Pacchetto salvataggio, il piu' conveniente",
-      "productId": "com.burraco3d.bundle.rescue",
-      "badge": "TOP",
+      "id": "offer_starter_set_2627",
+      "title": "6.000 monete + 120 gemme",
+      "description": "Starter Pack: solo al primo acquisto",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
       "image": "https://pietro3d.github.io/PaccoRegalo.png",
-      "validTo": "2026-09-06T22:00:00Z",
       "ctaLabel": "Acquista",
       "entryPoint": "bottom_icons_shop",
       "visibleOn": [
         "MainMenu"
       ],
       "conditions": {
-        "firstPurchaseOnly": false,
-        "minPlayerLevel": 2,
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
         "minCoins": 0
-      }
+      },
+      "validFrom": "2026-08-21T00:00:00Z",
+      "validTo": "2026-09-13T22:00:00Z"
     },
     {
-      "id": "offer_tiny_202608",
-      "title": "1.200 monete",
-      "description": "Ricarica veloce per continuare a giocare",
-      "productId": "com.burraco3d.coins.tiny",
-      "badge": "RICARICA",
+      "id": "offer_rientro_2627",
+      "title": "12.000 monete",
+      "description": "Pacchetto salvataggio per ripartire",
+      "productId": "com.burraco3d.bundle.rescue",
+      "badge": "RIENTRO",
       "image": "https://pietro3d.github.io/PaccoRegalo.png",
-      "validTo": "2026-09-06T22:00:00Z",
       "ctaLabel": "Acquista",
       "entryPoint": "bottom_icons_shop",
       "visibleOn": [
@@ -55,7 +55,309 @@
         "firstPurchaseOnly": false,
         "minPlayerLevel": 1,
         "minCoins": 0
-      }
+      },
+      "validFrom": "2026-09-14T00:00:00Z",
+      "validTo": "2026-10-04T22:00:00Z"
+    },
+    {
+      "id": "offer_autunno_2627",
+      "title": "7.500 monete",
+      "description": "La ricarica giusta per l'autunno",
+      "productId": "com.burraco3d.coins.medium",
+      "badge": "AUTUNNO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2026-10-05T00:00:00Z",
+      "validTo": "2026-10-25T22:00:00Z"
+    },
+    {
+      "id": "offer_starter_ott_2627",
+      "title": "6.000 monete + 120 gemme",
+      "description": "Starter Pack: solo al primo acquisto",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2026-10-26T00:00:00Z",
+      "validTo": "2026-11-15T22:00:00Z"
+    },
+    {
+      "id": "offer_novembre_2627",
+      "title": "700 gemme",
+      "description": "Scorta di gemme per i tavoli alti",
+      "productId": "com.burraco3d.gems.700",
+      "badge": "GEMME",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2026-11-16T00:00:00Z",
+      "validTo": "2026-11-29T22:00:00Z"
+    },
+    {
+      "id": "offer_dicembre_2627",
+      "title": "32.000 monete",
+      "description": "Il pacchetto piu' grande dello shop",
+      "productId": "com.burraco3d.coins.mega",
+      "badge": "MAXI",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2026-11-30T00:00:00Z",
+      "validTo": "2026-12-13T22:00:00Z"
+    },
+    {
+      "id": "offer_natale_2627",
+      "title": "15.000 monete + 250 gemme",
+      "description": "Booster Pack per le feste",
+      "productId": "com.burraco3d.bundle.booster",
+      "badge": "NATALE",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2026-12-14T00:00:00Z",
+      "validTo": "2027-01-06T22:00:00Z"
+    },
+    {
+      "id": "offer_starter_gen_2627",
+      "title": "6.000 monete + 120 gemme",
+      "description": "Starter Pack: solo al primo acquisto",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-01-07T00:00:00Z",
+      "validTo": "2027-01-31T22:00:00Z"
+    },
+    {
+      "id": "offer_febbraio_2627",
+      "title": "7.500 monete",
+      "description": "Ricarica di meta' inverno",
+      "productId": "com.burraco3d.coins.medium",
+      "badge": "RICARICA",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-02-01T00:00:00Z",
+      "validTo": "2027-02-21T22:00:00Z"
+    },
+    {
+      "id": "offer_marzo_2627",
+      "title": "260 gemme",
+      "description": "Gemme per sbloccare quello che vuoi",
+      "productId": "com.burraco3d.gems.260",
+      "badge": "GEMME",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-02-22T00:00:00Z",
+      "validTo": "2027-03-14T22:00:00Z"
+    },
+    {
+      "id": "offer_starter_mar_2627",
+      "title": "6.000 monete + 120 gemme",
+      "description": "Starter Pack: solo al primo acquisto",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-03-15T00:00:00Z",
+      "validTo": "2027-04-04T22:00:00Z"
+    },
+    {
+      "id": "offer_pasqua_2627",
+      "title": "15.000 monete + 250 gemme",
+      "description": "Booster Pack di primavera",
+      "productId": "com.burraco3d.bundle.booster",
+      "badge": "FESTE",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-04-05T00:00:00Z",
+      "validTo": "2027-04-25T22:00:00Z"
+    },
+    {
+      "id": "offer_maggio_2627",
+      "title": "12.000 monete",
+      "description": "Pacchetto salvataggio, sempre utile",
+      "productId": "com.burraco3d.bundle.rescue",
+      "badge": "TOP",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-04-26T00:00:00Z",
+      "validTo": "2027-05-23T22:00:00Z"
+    },
+    {
+      "id": "offer_starter_giu_2627",
+      "title": "6.000 monete + 120 gemme",
+      "description": "Starter Pack: solo al primo acquisto",
+      "productId": "com.burraco3d.bundle.starter",
+      "badge": "BENVENUTO",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": true,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-05-24T00:00:00Z",
+      "validTo": "2027-06-20T22:00:00Z"
+    },
+    {
+      "id": "offer_luglio_2627",
+      "title": "32.000 monete",
+      "description": "Il pacchetto piu' grande dello shop",
+      "productId": "com.burraco3d.coins.mega",
+      "badge": "MAXI",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-06-21T00:00:00Z",
+      "validTo": "2027-07-18T22:00:00Z"
+    },
+    {
+      "id": "offer_agosto_2627",
+      "title": "1.500 gemme",
+      "description": "La scorta di gemme piu' capiente",
+      "productId": "com.burraco3d.gems.1500",
+      "badge": "GEMME",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-07-19T00:00:00Z",
+      "validTo": "2027-08-15T22:00:00Z"
+    },
+    {
+      "id": "offer_finestate_2627",
+      "title": "15.000 monete + 250 gemme",
+      "description": "Booster Pack di fine estate",
+      "productId": "com.burraco3d.bundle.booster",
+      "badge": "BOOSTER",
+      "image": "https://pietro3d.github.io/PaccoRegalo.png",
+      "ctaLabel": "Acquista",
+      "entryPoint": "bottom_icons_shop",
+      "visibleOn": [
+        "MainMenu"
+      ],
+      "conditions": {
+        "firstPurchaseOnly": false,
+        "minPlayerLevel": 1,
+        "minCoins": 0
+      },
+      "validFrom": "2027-08-16T00:00:00Z",
+      "validTo": "2027-09-12T22:00:00Z"
     }
   ]
 }
