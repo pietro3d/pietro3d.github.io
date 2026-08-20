@@ -16,8 +16,7 @@
         "firstPurchaseOnly": true,
         "minPlayerLevel": 1,
         "minCoins": 0
-      },
-      "validTo": "2027-12-31T22:00:00Z"
+      }
     },
     {
       "id": "offer_starter_set_2627",
@@ -36,7 +35,7 @@
         "minPlayerLevel": 1,
         "minCoins": 0
       },
-      "validFrom": "2026-08-21T00:00:00Z",
+      "validFrom": "2026-08-20T00:00:00Z",
       "validTo": "2026-09-13T22:00:00Z"
     },
     {
